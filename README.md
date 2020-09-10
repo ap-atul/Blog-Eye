@@ -28,6 +28,3 @@ $ pip install -r requirements.txt
 $ python blogeye.py
 ```
 5. Enter the prompted values. Done....
-
-## Issue known
-* Some sites can show certificate warning. Just ignore for now!
