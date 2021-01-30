@@ -47,7 +47,7 @@ def run(count):
     :param count: int, the count of views
     :return: None
     """
-    response = tr.get(site, headers=headers, verify=False)
+    response = tr.get(site, headers=headers, verify=True)
     print(f"{count + 1} Blog view added .......")
     tr.reset_identity()
 
